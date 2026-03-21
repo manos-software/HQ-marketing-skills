@@ -1,4 +1,5 @@
 # GTM Motion — StableTrack
+> version: 1.0.0
 
 ## Market context
 - ~5,000 practices in core geographies
