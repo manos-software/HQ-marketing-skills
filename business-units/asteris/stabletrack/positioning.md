@@ -1,4 +1,5 @@
 # Positioning — StableTrack
+> version: 1.0.0
 
 ## Category
 Equine practice management software (PMS)
