@@ -1,5 +1,5 @@
 # Trial Engagement Definition — StableTrack
->version: 1.2.0
+> version: 1.2.1
 
 ## Purpose
 Segment trial users based on real product usage to drive personalized email sequences.
@@ -24,7 +24,7 @@ Each user is labeled:
 | Status | Segment | Meaning | Goal |
 |--------|--------|--------|------|
 | green  | High engagement | User reached value | Convert to paid |
-| yellow | Medium engagement | User started but incomplete | Push to invoice |
+| yellow | Medium engagement | User started but incomplete | Drive activity and workflow completion |
 | red    | Low engagement | User inactive or blocked | Drive first action |
 
 ---
@@ -43,7 +43,7 @@ Interpretation:
 - Has experienced value
 
 Primary goal:
-→ Convert to paid
+→ Convert trial to paid plan
 
 ---
 
@@ -56,10 +56,10 @@ Criteria:
 
 Interpretation:
 - User is exploring
-- Has not reached value yet
+- Has not reached full value yet
 
 Primary goal:
-→ Push to first invoice
+→ Drive activity and complete workflow
 
 ---
 
@@ -86,17 +86,16 @@ Primary goal:
 - Ensure it includes:
   - user identifier (email or ID)
   - engagement status (green / yellow / red)
-  - usage data if available
 
-- If using Slack:
-  - Download the latest report shared by the team
-  - Save as `engagement-report.csv`
+If using Slack:
+- Download the latest report shared by the team
+- Save as: engagement-report.csv
 
 ---
 
 ### Step 2 — Filter trial users
 
-- Identify users within active trial window (14 days)
+- Identify users currently in trial (14-day window)
 - Remove:
   - expired trials
   - paying customers
@@ -110,9 +109,9 @@ Output:
 
 For each user:
 
-- If status = green → High engagement
-- If status = yellow → Medium engagement
-- If status = red → Low engagement
+- green → High engagement
+- yellow → Medium engagement
+- red → Low engagement
 
 ---
 
@@ -131,36 +130,26 @@ Each should include:
 
 ---
 
-### Step 5 — Sync to CRM / email tool
+### Step 5 — Sync to Mailchimp
 
-Upload lists into your email platform (e.g., HubSpot)
+Upload lists and apply tags:
 
-Assign:
-- workflow: high engagement → conversion sequence
-- workflow: medium engagement → activation sequence
-- workflow: low engagement → recovery sequence
+- stabletrack_trial_green
+- stabletrack_trial_yellow
+- stabletrack_trial_red
+
+Trigger corresponding automations.
 
 ---
 
 ## Instructions for agents
 
-When generating outputs:
+- Always check engagement segment first
+- Never send generic sequences across segments
+- Adapt messaging:
+  - Red → simplify + guide + support
+  - Yellow → drive activity + workflow completion
+  - Green → reinforce value + convert
 
-1. Always check engagement segment first
-2. Adapt messaging accordingly:
-   - Low → simplify + guide + support
-   - Medium → push to value (invoice)
-   - High → reinforce ROI + convert
-
-3. Never send generic sequences across segments
-
-4. If engagement data is missing:
-   → default to LOW engagement
-
----
-
-## Notes
-
-- This system runs on a rolling 14-day trial window
-- Segmentation should be refreshed regularly (daily or biweekly)
-- Accuracy of engagement data directly impacts conversion performance
+- If engagement data is missing:
+  → default to LOW engagement
