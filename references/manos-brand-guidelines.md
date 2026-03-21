@@ -1,6 +1,6 @@
 # Manos Brand Guidelines
 
-> Clarity is scarce. Scarcity is where advantage compounds.
+> version: 1.0.0
 
 ---
 
