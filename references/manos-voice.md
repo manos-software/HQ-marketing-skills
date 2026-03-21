@@ -1,5 +1,7 @@
 # Manos Voice System
 
+> version: 1.0.0
+> 
 Manos operates with one core worldview expressed through multiple voice altitudes. Substance does not change. Only proximity and cadence shift.
 
 Every piece of content must reinforce the Core Thesis, align to one Primary Pillar, include proof-backed reasoning, maintain structural clarity, and be economically grounded.
