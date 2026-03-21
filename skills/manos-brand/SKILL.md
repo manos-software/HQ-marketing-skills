@@ -1,6 +1,8 @@
 ---
 name: manos-brand
 description: Manos brand identity and voice system. Apply this skill to ALL content created for Manos — written content, documents, presentations, design assets, web pages, UI components, social graphics, and any other output that represents the Manos brand. This skill should trigger whenever someone is creating, editing, or reviewing anything for Manos, including blog posts, LinkedIn posts, Substack essays, website copy, pitch decks, reports, PDFs, landing pages, dashboards, email templates, social media graphics, banners, or any branded deliverable. If the work is for Manos, this skill applies. No exceptions.
+metadata:
+  version: 1.0.0
 ---
 
 # Manos Brand System
