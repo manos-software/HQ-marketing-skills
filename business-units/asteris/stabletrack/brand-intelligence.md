@@ -1,4 +1,5 @@
 # StableTrack — Brand Intelligence
+> version: 1.0.0
 
 ## Product summary
 StableTrack is an AI-powered equine practice management system designed for ambulatory veterinarians.  
