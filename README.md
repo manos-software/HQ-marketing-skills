@@ -1,4 +1,4 @@
-# HQ-1.0
+# HQ-marketing-skills
 
 Manos’s internal operating system for AI-assisted GTM, content, and operator execution.
 
@@ -6,7 +6,7 @@ Manos’s internal operating system for AI-assisted GTM, content, and operator e
 
 ## What this is
 
-HQ-1.0 is a structured system of reusable skills, tools, and playbooks designed to support real execution inside vertical software businesses.
+HQ-marketing-skills is a structured system of reusable skills, tools, and playbooks designed to support real execution inside vertical software businesses.
 
 It is built for operators working across marketing, product, and revenue functions who want to use AI to accelerate output without losing context, quality, or control.
 
