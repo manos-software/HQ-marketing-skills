@@ -20,7 +20,7 @@ This repository also serves as an internal **plugin marketplace**, allowing skil
 ## Repository Structure
 
 ```
-hq-2.0/
+hq-marketing-skills/
 ├── .claude-plugin/
 │   └── marketplace.json
 ├── skills/
