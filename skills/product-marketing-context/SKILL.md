@@ -2,7 +2,7 @@
 name: product-marketing-context
 description: "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing-context.md` that all other skills reference for product, audience, positioning, and go-to-market context."
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Product Marketing Context
@@ -135,6 +135,14 @@ Capture the forces shaping change:
 - Current metrics, if known
 - Relevant GTM priority, if known (pipeline, activation, retention, expansion, awareness)
 
+### 13. SEO
+- Target keywords
+- Priority topics
+- Competitors in search
+- Geographic targets
+- Conversion goals (SEO-specific)
+- Technical constraints (JS, CMS, etc.)
+
 ---
 
 ## Step 3: Create the document
@@ -231,6 +239,14 @@ After gathering information, create `.agents/product-marketing-context.md` with 
 **Conversion action:**
 **Current metrics:**
 **GTM priority:**
+
+### SEO
+**Target keywords**
+**Priority topics**
+**Competitors in search**
+**Geographic targets**
+**Conversion goals (SEO-specific)**
+**Technical constraints (JS, CMS, etc.)**
 ```
 
 ---
