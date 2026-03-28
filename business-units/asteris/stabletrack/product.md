@@ -1,174 +1,121 @@
-# Product — StableTrack
-> version: 1.0.0
+# StableTrack — Product
+> Reference file. Load for feature-level content, product marketing, documentation, or release notes.
+
+---
 
 ## Overview
-StableTrack is an AI-powered, cloud-based, offline-capable equine practice management platform built specifically for ambulatory veterinarians working in the field.
 
-It combines documentation, scheduling, billing, and imaging into a single workflow designed to eliminate revenue leakage and reduce administrative burden.
+AI-powered, cloud-based, offline-capable equine practice management platform. Combines documentation, scheduling, billing, imaging, inventory, and payments in one workflow. Built by Asteris. Live — launched AAEP 2025, now in broader rollout.
 
----
-
-## Core product philosophy
-
-### Built for the field
-StableTrack is designed for real equine workflows:
-- barn environments
-- low or no connectivity
-- mobile-first usage
-
-### Revenue-first design
-The system ensures:
-- every service is captured
-- every charge is recorded
-- every invoice is generated accurately
+**Core philosophy:**
+- Built for the field: barn environments, low/no connectivity, mobile-first
+- Revenue-first design: every service captured, every charge recorded, every invoice generated
+- AI as assistant: reduces admin, never replaces clinical judgment
 
 ---
 
-## Core modules
+## Modules
 
 ### AI SOAP documentation
-- Voice-to-text AI captures notes during exams
-- Automatically formats SOAP notes in real time
-- Works offline and syncs when connectivity returns
+- Speech-to-text converts verbal notes into structured SOAP during exams
+- Hands-free — talk while examining, not type on phone
+- Works offline, syncs when connectivity returns
 - Eliminates after-hours documentation
-
----
+- Photo/imaging attachment from phone camera
+- Website language: "Document care hands-free while examining the horse"
 
 ### Scheduling
-- Field visit scheduling
-- Recurring appointments and emergency slots
-- Route-based workflows (not clinic-based)
-- Automated reminders and notifications
-
----
+- Route-based field visit scheduling (not clinic-based)
+- Online booking, flexible appointment types (clinic, farm, emergency)
+- Multi-vet calendars, fast rescheduling, real-time visibility
+- Recurring appointment logic (dentistry, vaccinations, wellness, reproductive)
+- Vet time blocking (meetings, lunch, non-appointment tasks)
+- Automated reminders and client notifications
+- Mobile schedule management from phone
 
 ### Medical records
-- Longitudinal patient history
-- Treatments, prescriptions, lab results, imaging
-- Multi-owner, trainer, and barn relationships
-
----
+- Structured longitudinal horse profiles (not isolated visit records)
+- Visit history, treatment records, diagnostic notes, prescriptions, vaccinations
+- Multi-owner, trainer, barn relationships with shared access
+- Performance/lameness history across years, disciplines, providers
+- Fast retrieval for repeat patients and emergencies
+- Website language: "Horses are not small animals seen once a year in a single clinic room"
 
 ### Billing and invoicing
-- Services flow directly from documentation to invoice
-- No separate billing entry required
-- Eliminates missed charges
-
----
+- Documentation flows directly to invoice — no separate billing entry
+- Automated invoice creation from visit line items
+- Mobile billing from phone/tablet after field work
+- Multi-owner invoice splitting by ownership percentages
+- Barn operations: bulk services + billing for multiple horses
+- Payment tracking and outstanding balance visibility
+- Dynamic pricing, category-aware tax, configurable payment terms
+- Website language: "The medical record is not isolated from the financial record. It supports it."
 
 ### Payments
-- Accept credit, debit, and ACH (bank payments)
-- Record manual payments (cash, check)
+- Credit, debit, ACH (bank payments)
+- Manual payment recording (cash, check)
 - Shareable payment links for clients
-
----
+- Insurance claims streamlining
 
 ### Inventory management
-- Track medications and supplies in real time
-- Low-stock alerts
-- Controlled substance tracking
-
----
+- Real-time monitoring (truck and clinic)
+- Automatic low-stock alerts
+- Controlled substance tracking and logging
 
 ### Imaging integration
-- Native Asteris PACS integration
-- View and manage imaging directly within patient records
-- No need for separate systems
+- Native Asteris Keystone PACS integration
+- View/manage imaging within patient records
+- DICOM-compliant, all modality types (DR/CR, ultrasound, CT, MRI, dental)
+- No separate systems, logins, or data re-entry
+- **Only equine PMS with native PACS — unique competitive advantage**
+
+### Client communication
+- Automated communication through client channels
+- Email invoices and discharge summaries
+- Appointment reminders and notifications
+- Clinic branding (logo on invoices/summaries)
+- Configurable clinical terminology
+
+### Business insights
+- Real-time dashboards: revenue, patient trends, staff performance
+- Practice analytics for decision-making and growth
+- Financial reporting for owners and managers
+
+### AI assistant
+- Handles common workflow tasks beyond SOAP notes
+- Pulls information instantly when needed
+- Reduces admin work, not clinical judgment
+- Vets stay fully in control
 
 ---
 
-## Advanced workflow capabilities
-
-### Multi-owner management
-- Handle fractional ownership structures
-- Assign billing and communication across multiple stakeholders
-
-### Barn operations
-- Apply services to multiple horses at once
-- Bulk billing workflows for barns and trainers
-
-### Documentation → billing continuity
-- Actions taken during exams automatically translate into billable items
-- Removes the gap between work performed and revenue captured
+## Integrations
+- Asteris Keystone PACS (native imaging)
+- QuickBooks (accounting sync)
+- Leading veterinary systems (interoperability)
+- Automated client communication channels
+- Online booking and client notifications
 
 ---
 
 ## Key differentiators
-
-### Offline-first architecture
-StableTrack works fully without internet and syncs automatically when connectivity returns.
-
-### Equine-specific design
-Unlike general vet software, StableTrack is built for:
-- ambulatory workflows
-- barn environments
-- multi-owner horses
-
-### End-to-end workflow
-From exam → documentation → billing → payment  
-All in one system.
+1. **Offline-first architecture** — works fully without internet, syncs on reconnect. Native, not add-on.
+2. **AI SOAP generation** — native, not transcription-only. No equine PMS competitor matches this.
+3. **Doc-to-billing continuity** — exam actions auto-translate to billable items. Eliminates the gap the JAVMA 2024 study quantified (15–36% invoice decay).
+4. **Multi-owner management** — fractional ownership, split invoicing, trainer/barn relationships. Native.
+5. **Native Asteris PACS** — only equine PMS built by a PACS company. Unassailable moat.
+6. **Equine-specific design** — route-based scheduling, barn environments, ambulatory workflows. Not adapted from companion animal.
 
 ---
 
-## Perceived value
+## Latest release: v3.5.0
 
-- Immediate ROI through recovered revenue
-- Reduced admin time and after-hours work
-- Increased billing accuracy
-- Better workflow efficiency in the field
+**New:** Vet time blocking, barn operations (bulk service/billing), ACH payments, shareable payment links, multi-owner invoice splitting, email invoices/discharge summaries, clinic branding
 
----
+**Improved:** Refreshed UI, dynamic appointment pricing, category-aware tax, configurable payment terms, customizable clinical terminology, mobile-first enhancements
 
-## Release notes — v3.5.0
-
-### New features
-
-**Vet time blocking**
-- Block calendar time for meetings, lunch, and non-appointment tasks
-
-**Barn operations**
-- Apply services to multiple horses simultaneously
-- Bulk billing for shared visits
-
-**Payments**
-- Accept ACH (bank payments) in addition to cards
-- Record manual payments directly on invoices
-
-**Payment links**
-- Generate and send shareable payment links to clients
-
-**Multi-owner invoice splitting**
-- Automatically split invoices based on ownership percentages
-
-**Client communication**
-- Send invoices and discharge summaries via email
-
-**Clinic branding**
-- Upload clinic logo for use in invoices and discharge summaries
-
----
-
-### Improvements
-
-**Refreshed UI**
-- Modernized interface across the entire platform
-- Improved navigation and usability
-- Mobile-first experience enhancements
-
-**Service catalog and pricing**
-- Dynamic appointment pricing
-- Category-aware tax settings
-- Configurable default payment terms
-
-**Clinical terminology controls**
-- Customize medications, vaccinations, and procedures
-- Control what appears in clinical workflows
-
----
-
-## Product maturity (current state)
-
+## Product maturity
 - Core workflows fully operational
 - Feature-complete for practice management
-- Active integrations (QuickBooks, PACS, others in progress)
-- Continuous improvements driven by early users and design partners
+- Active integrations: QuickBooks, Asteris Keystone PACS, others in progress
+- Continuous improvements from user feedback
